@@ -70,7 +70,7 @@ public class Book {
                 document.add(new Paragraph(BookData)
                                 .setFontSize(11)
                                 .setMultipliedLeading(1.4f)
-                                .setTextAlignment(TextAlignment.JUSTIFIED_ALL));
+                                .setTextAlignment(TextAlignment.JUSTIFIED));
 
                 document.close();
         }
@@ -101,10 +101,7 @@ public class Book {
                                 .collect(Collectors.joining(
                                                 System.lineSeparator() + System.lineSeparator()));
 
-                bookData = bookData.replace("\r\n", " ").replace("\n", " ").replace(".", " ").replace(" ", ".")
-                                .replaceAll(
-                                                "[\\s.]+",
-                                                ".");
+                bookData = bookData.replace("\r\n", " ").replace("\n", " ");
 
                 return new String[] {
                                 title,
