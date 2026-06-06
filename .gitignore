@@ -1,0 +1,10 @@
+libs/*
+target/*
+build/*
+cache/*
+plugins/*
+reports/*
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+*.pdf
