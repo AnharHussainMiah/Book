@@ -18,7 +18,7 @@ if there are no errors, this should generate a file in the same directory called
 
 ### Download pre-compiled Jar
 
-Download the compiled `jar` from the releases page here.
+Download the latest compiled `jar` from the releases page [here](https://github.com/AnharHussainMiah/Book/releases).
 
 ### Building from source
 
