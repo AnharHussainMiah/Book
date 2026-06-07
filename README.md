@@ -16,6 +16,10 @@ $ java -jar Book.jar
 
 if there are no errors, this should generate a file in the same directory called `book.pdf`
 
+## Sample Render
+
+Check out the rendered [Sample PDF](sample.pdf)
+
 ### Download pre-compiled Jar
 
 Download the latest compiled `jar` from the releases page [here](https://github.com/AnharHussainMiah/Book/releases).
